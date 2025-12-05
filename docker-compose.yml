@@ -14,7 +14,7 @@ services:
       - MINIO_ENDPOINT=minio:9000
       - MINIO_ACCESS_KEY=minioadmin
       - MINIO_SECRET_KEY=minioadmin
-      - N8N_WEBHOOK_URL=${N8N_WEBHOOK_URL}
+      - N8N_WEBHOOK_URL=${N8N_TEST_WEBHOOK_URL}
       - GEMINI_API_KEY=${GEMINI_API_KEY}
       - MODEL_QA_GENERATOR=${MODEL_QA_GENERATOR}
       # Configurações do PostgreSQL

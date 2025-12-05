@@ -442,7 +442,7 @@ class QAGenerator:
                          context_keywords: str = "", difficulty: str = "Intermediário") -> List[Dict[str, str]]:
         """Gera pares de perguntas e respostas baseados no texto."""
         prompt = ChatPromptTemplate.from_messages([
-            ("system", """Você é um especialista em criação de conteúdos educacionais. 
+            ("system", """Você é um especialista em criação de conteúdos jurídicos. 
             Gere {num_questions} perguntas e respostas baseadas no documento abaixo:
 
             REGRAS:
